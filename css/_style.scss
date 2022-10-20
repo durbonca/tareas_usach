@@ -77,10 +77,13 @@ label {
 /* Grid Container */
 #main-container-grid {
   display: grid;
+  grid-template: repeat(4, auto) / 100vw;
+  grid-template-areas: "head" "intro" "pilars" "footer";
 }
 
 /* Header */
 #head {
+  grid-area: head;
   background: #181015 url(../assets/images/bg_header.jpg) no-repeat;
   background-size: cover;
   min-height: 520px;
@@ -142,6 +145,14 @@ label {
   -moz-box-shadow: inset 0px 0px 0px 3px #fff;
   box-shadow: inset 0px 0px 0px 3px #fff;
   background: transparent;
+}
+
+#intro {
+  grid-area: intro;
+}
+
+#pilars {
+  grid-area: pilars;
 }
 
 .panel {
@@ -323,6 +334,7 @@ img.pull-left {
 }
 
 .footer {
+  grid-area: footer;
   background: #187BBD;
   padding: 15px 0;
   color: #ccc;
