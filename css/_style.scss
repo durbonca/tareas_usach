@@ -53,7 +53,7 @@ label {
 }
 
 .navbar-inverse .navbar-nav > li > a, .navbar-inverse .navbar-nav > .open ul > a {
-  color: rgb(255, 255, 255);
+  color: rgba(255, 255, 255, 1);
 }
 
 .navbar-inverse {
@@ -538,7 +538,7 @@ nav#filter a.current {
   width: 100%;
   left: 0;
   top: 0;
-  color: rgb(220, 220, 220);
+  color: rgba(220, 220, 220);
 }
 
 .fancybox-overlay {
@@ -657,6 +657,5 @@ nav#filter a.current {
     height: 20px;
   }
 }
-/*# sourceMappingURL=_style.scss.map */
 
-/*# sourceMappingURL=style.css.map */
+/*# sourceMappingURL=_style.scss.map */
